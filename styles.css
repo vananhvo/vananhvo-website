@@ -1,0 +1,38 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: indigo;
+}
+
+h1 {
+    color: aquamarine;
+}
+
+p {
+    color: coral;
+}
+
+
+.sidenav {
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: indigo;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #e43c7c;
+    display: block;
+  }
+
+.main {
+    margin-left: 500px;
+    font-size: 28px;
+    padding: 0px 10px;
+}
